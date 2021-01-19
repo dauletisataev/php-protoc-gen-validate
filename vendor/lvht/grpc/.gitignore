@@ -1,0 +1,6 @@
+example/sdk
+example/vendor
+example/composer.lock
+vendor
+composer.lock
+.phpcd

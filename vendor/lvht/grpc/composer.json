@@ -1,0 +1,24 @@
+{
+    "name": "lvht/grpc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "吕海涛",
+            "email": "i@lvht.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lv\\Grpc\\": "./src"
+        }
+    },
+    "require": {
+        "php": "^7",
+        "ext-curl": "*",
+        "lvht/protobuf": "^3.5",
+        "liues1992/php-protobuf-generator": "^0.1.1"
+    },
+    "bin": [
+        "./bin/protoc-gen-grpc-php"
+    ]
+}

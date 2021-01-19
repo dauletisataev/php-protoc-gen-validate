@@ -1,0 +1,11 @@
+{
+  "name": "grpc/hello",
+  "require": {
+    "lvht/grpc": "^1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "."
+    }
+  }
+}

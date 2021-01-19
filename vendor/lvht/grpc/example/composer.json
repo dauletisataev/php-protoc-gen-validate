@@ -1,0 +1,20 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./sdk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lv\\Grpc\\Demo\\": "src",
+            "GPBMetadata\\": "sdk/GPBMetadata",
+            "Helloworld\\": "sdk/Helloworld"
+        }
+    },
+    "require": {
+        "lvht/grpc": "^1.1"
+    }
+}

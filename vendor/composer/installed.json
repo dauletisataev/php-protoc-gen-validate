@@ -1,0 +1,262 @@
+[
+    {
+        "name": "liues1992/php-protobuf-generator",
+        "version": "v0.1.7",
+        "version_normalized": "0.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/liues1992/php-protobuf-generator.git",
+            "reference": "724958d9e61862bc2f906b470b4441b1f626b068"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/liues1992/php-protobuf-generator/zipball/724958d9e61862bc2f906b470b4441b1f626b068",
+            "reference": "724958d9e61862bc2f906b470b4441b1f626b068",
+            "shasum": ""
+        },
+        "require": {
+            "lvht/protobuf": "^3.5",
+            "pear/console_commandline": "^1.2",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.5"
+        },
+        "time": "2018-12-11T03:08:12+00:00",
+        "bin": [
+            "protoc-gen.php",
+            "protoc-gen-plugin.php",
+            "protoc-gen-grpc-plugin.php"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gary\\": "./src/Gary"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gary Lyn",
+                "email": "liues1992@gmail.com",
+                "homepage": "https://github.com/liues1992",
+                "role": "Original Author"
+            }
+        ],
+        "description": "Google's protobuf generator for PHP",
+        "homepage": "https://github.com/liues1992/php-protobuf-generator",
+        "keywords": [
+            "gRPC",
+            "protobuf php",
+            "protocol buffers"
+        ]
+    },
+    {
+        "name": "lvht/grpc",
+        "version": "v2.1.4",
+        "version_normalized": "2.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lvht/protoc-gen-grpc-php.git",
+            "reference": "a16bf017845661a3d895d53218ae19757e131331"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lvht/protoc-gen-grpc-php/zipball/a16bf017845661a3d895d53218ae19757e131331",
+            "reference": "a16bf017845661a3d895d53218ae19757e131331",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "liues1992/php-protobuf-generator": "^0.1.1",
+            "lvht/protobuf": "^3.5",
+            "php": "^7"
+        },
+        "time": "2019-04-16T14:40:49+00:00",
+        "bin": [
+            "./bin/protoc-gen-grpc-php"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Lv\\Grpc\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "吕海涛",
+                "email": "i@lvht.net"
+            }
+        ]
+    },
+    {
+        "name": "lvht/protobuf",
+        "version": "v3.5.1.1",
+        "version_normalized": "3.5.1.1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lvht/protobuf-php.git",
+            "reference": "52f3e35f669e05295d21e74007297165fb9c8728"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lvht/protobuf-php/zipball/52f3e35f669e05295d21e74007297165fb9c8728",
+            "reference": "52f3e35f669e05295d21e74007297165fb9c8728",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "replace": {
+            "google/protobuf": "self.version"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=4.8.0"
+        },
+        "suggest": {
+            "ext-bcmath": "Need to support JSON deserialization"
+        },
+        "time": "2018-01-27T02:42:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Google\\Protobuf\\": "php/src/Google/Protobuf",
+                "GPBMetadata\\Google\\Protobuf\\": "php/src/GPBMetadata/Google/Protobuf"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "proto library for PHP",
+        "homepage": "https://developers.google.com/protocol-buffers/",
+        "keywords": [
+            "proto"
+        ]
+    },
+    {
+        "name": "pear/console_commandline",
+        "version": "v1.2.3",
+        "version_normalized": "1.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pear/Console_CommandLine.git",
+            "reference": "331b295d00c9fa2dae30fe14538d430d72d954c6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pear/Console_CommandLine/zipball/331b295d00c9fa2dae30fe14538d430d72d954c6",
+            "reference": "331b295d00c9fa2dae30fe14538d430d72d954c6",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-xml": "*",
+            "pear/pear_exception": "^1.0.0",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2020-04-16T15:04:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Console": "./"
+            },
+            "exclude-from-classmap": [
+                "tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            ""
+        ],
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Richard Quadling",
+                "email": "rquadling@gmail.com"
+            },
+            {
+                "name": "David Jean Louis",
+                "email": "izimobil@gmail.com"
+            }
+        ],
+        "description": "A full featured command line options and arguments parser.",
+        "homepage": "https://github.com/pear/Console_CommandLine",
+        "keywords": [
+            "console"
+        ]
+    },
+    {
+        "name": "pear/pear_exception",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pear/PEAR_Exception.git",
+            "reference": "dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7",
+            "reference": "dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=4.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2019-12-10T10:24:42+00:00",
+        "type": "class",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "PEAR/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "."
+        ],
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Helgi Thormar",
+                "email": "dufuz@php.net"
+            },
+            {
+                "name": "Greg Beaver",
+                "email": "cellog@php.net"
+            }
+        ],
+        "description": "The PEAR Exception base class.",
+        "homepage": "https://github.com/pear/PEAR_Exception",
+        "keywords": [
+            "exception"
+        ]
+    }
+]
